@@ -1,0 +1,19 @@
+{
+  "name": "Dragons",
+  "symbol": "",
+  "image": "1.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "1.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "9NmYrHdJKf34ZCy2jzMd5zio85jfus7BBGpaKCwiZBVc",
+        "share": 100
+      }
+    ]
+  }
+}

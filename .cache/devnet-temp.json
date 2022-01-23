@@ -1,0 +1,28 @@
+{
+  "program": {
+    "uuid": "FyYsfw",
+    "candyMachine": "FyYsfwJG23UeB1LHQ7ECrfz9oKZVSdoKnWV8xATUMmLU"
+  },
+  "items": {
+    "0": {
+      "link": "https://arweave.net/TScdlCLJXbkY4CADDEB3WU3p90Cq2bvt8lo0h1yRZrw",
+      "name": "Dragons",
+      "onChain": true,
+      "verifyRun": true
+    },
+    "1": {
+      "link": "https://arweave.net/k1dKJbPOW0xHUSQqCwBJUAfy3MNv5kBolcdiXRfEEio",
+      "name": "Dragons",
+      "onChain": true,
+      "verifyRun": true
+    },
+    "2": {
+      "link": "https://arweave.net/wMRPEffjsdUNrlMBvbcn2cz6gidcewqX-q0eNb1stdk",
+      "name": "Dragons",
+      "onChain": true,
+      "verifyRun": true
+    }
+  },
+  "env": "devnet",
+  "cacheName": "temp"
+}
