@@ -25,7 +25,9 @@
 }
 
 .header-container {
-  /* background-color: #60c657; */
+  background-color: #60c657;
+  padding: 25px 0px;
+  border-radius: 10px;
 }
 
 .header {
