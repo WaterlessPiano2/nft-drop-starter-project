@@ -55,7 +55,11 @@ const CandyMachine = ({ walletAddress }) => {
     const itemsRemaining = itemsAvailable - itemsRedeemed;
     const goLiveData = candyMachine.data.goLiveDate.toNumber();
 
-    const goLiveDateTimeString = `${new Date(goLiveData * 1000).toGMTString()}`;
+    const goLiveDateTimeString = `${new Date(
+      goLiveData * 1000
+    ).toLocaleDateString()} @ ${new Date(
+      goLiveData * 1000
+    ).toLocaleTimeString()}`;
 
     // Add this data to your state to render
     setCandyMachine({
@@ -387,7 +391,7 @@ const CandyMachine = ({ walletAddress }) => {
       <div className="machine-container">
         <p>{`Drop Date: ${candyMachine.state.goLiveDateTimeString}`}</p>
         <p>{`Items Minted: ${candyMachine.state.itemsRedeemed} / ${candyMachine.state.itemsAvailable}`}</p>
-        <button className="cta-button mint-button" onClick={null}>
+        <button className="cta-button mint-button" onClick={mintToken}>
           Mint NFT
         </button>
       </div>
