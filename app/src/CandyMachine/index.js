@@ -137,7 +137,7 @@ const CandyMachine = ({ walletAddress }) => {
       )
     )[0];
   };
-
+  
   const createAssociatedTokenAccountInstruction = (
     associatedTokenAddress,
     payer,
